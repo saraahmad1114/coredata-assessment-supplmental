@@ -60,11 +60,11 @@ class PetTableViewController: UITableViewController {
                 if let petName = store.pets[indexpath!.row].name {
                         destinationVC.petName = petName
                 }
-                if let vetNameLab = store.pets[indexpath!.row].vet{
-                        destinationVC.vetName = String(vetNameLab)
+                if let vetNameLab = store.pets[indexpath!.row].vet?.name{
+                        destinationVC.vetName = vetNameLab
                 }
-                if let hospitalNameLab = store.pets[indexpath!.row].hospital{
-                        destinationVC.hospitalName = String(hospitalNameLab)
+                if let hospitalNameLab = store.pets[indexpath!.row].hospital?.name{
+                        destinationVC.hospitalName = hospitalNameLab
                 }
             
             }

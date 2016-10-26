@@ -16,8 +16,8 @@
         <relationship name="pets" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Pet" inverseName="vet" inverseEntity="Pet" syncable="YES"/>
     </entity>
     <elements>
-        <element name="Hospital" positionX="-27" positionY="-36" width="128" height="88"/>
-        <element name="Vet" positionX="171" positionY="-135" width="128" height="88"/>
-        <element name="Pet" positionX="423" positionY="-36" width="128" height="88"/>
+        <element name="Hospital" positionX="-3348" positionY="14" width="128" height="88"/>
+        <element name="Vet" positionX="-3078" positionY="-28" width="128" height="88"/>
+        <element name="Pet" positionX="-2799" positionY="29" width="128" height="88"/>
     </elements>
 </model>

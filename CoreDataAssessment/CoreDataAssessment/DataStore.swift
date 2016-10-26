@@ -129,6 +129,7 @@ class DataStore {
         
         petOne.hospital = hospitalOne
         petOne.vet = vetOne
+//        hospitalOne.pets?.insert(petOne)
         
         //********************************************************************************
         
@@ -147,6 +148,8 @@ class DataStore {
         
         vetTwo.pets?.insert(petTwo)
         petTwo.vet = vetTwo
+        petTwo.hospital = hospitalTwo
+        //hospitalTwo.pets?.insert(petTwo)
         
         //********************************************************************************
         
@@ -166,7 +169,7 @@ class DataStore {
         
         petThree.vet = vetThree
         petThree.hospital = hospitalThree
-        
+                
         //********************************************************************************
 
         

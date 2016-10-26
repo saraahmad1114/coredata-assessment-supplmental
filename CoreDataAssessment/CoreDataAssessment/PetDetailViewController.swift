@@ -26,10 +26,13 @@ class PetDetailViewController: UIViewController {
         super.viewDidLoad()
 
         petNameLabel.text = petName
-        
         vetNameLabel.text = vetName
-        
         hospitalNameLabel.text = hospitalName
+        
+        print("This is printing out ")
+        print(vetName)
+        print(hospitalName)
+        print("This is printing out ")
         
         // Do any additional setup after loading the view.
     }

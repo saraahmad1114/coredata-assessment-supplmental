@@ -15,17 +15,17 @@
 		1BEB25A71DBEEC8E00064941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEB25A51DBEEC8E00064941 /* LaunchScreen.storyboard */; };
 		1BEB25B21DBEEC8E00064941 /* CoreDataAssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25B11DBEEC8E00064941 /* CoreDataAssessmentTests.swift */; };
 		1BEB25BD1DBEEC8E00064941 /* CoreDataAssessmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25BC1DBEEC8E00064941 /* CoreDataAssessmentUITests.swift */; };
-		1BEB25D01DBF6E6B00064941 /* Pet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25CA1DBF6E6B00064941 /* Pet+CoreDataProperties.swift */; };
-		1BEB25D11DBF6E6B00064941 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25CB1DBF6E6B00064941 /* Pet.swift */; };
-		1BEB25D21DBF6E6B00064941 /* Hospital+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25CC1DBF6E6B00064941 /* Hospital+CoreDataProperties.swift */; };
-		1BEB25D31DBF6E6B00064941 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25CD1DBF6E6B00064941 /* Hospital.swift */; };
-		1BEB25D41DBF6E6B00064941 /* Vet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25CE1DBF6E6B00064941 /* Vet+CoreDataProperties.swift */; };
-		1BEB25D51DBF6E6B00064941 /* Vet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25CF1DBF6E6B00064941 /* Vet.swift */; };
 		1BEB25D71DBF741300064941 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25D61DBF741300064941 /* DataStore.swift */; };
 		1BEB25DB1DBFF6FE00064941 /* HospitalTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25DA1DBFF6FE00064941 /* HospitalTableViewController.swift */; };
 		1BEB25DD1DC0288F00064941 /* VetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25DC1DC0288F00064941 /* VetTableViewController.swift */; };
 		1BEB25DF1DC02AB100064941 /* PetTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25DE1DC02AB100064941 /* PetTableViewController.swift */; };
 		1BEB25E11DC0316F00064941 /* PetDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB25E01DC0316F00064941 /* PetDetailViewController.swift */; };
+		1BEB63871DC12DC8000B8AA8 /* Pet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB63811DC12DC8000B8AA8 /* Pet+CoreDataProperties.swift */; };
+		1BEB63881DC12DC8000B8AA8 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB63821DC12DC8000B8AA8 /* Pet.swift */; };
+		1BEB63891DC12DC8000B8AA8 /* Vet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB63831DC12DC8000B8AA8 /* Vet+CoreDataProperties.swift */; };
+		1BEB638A1DC12DC8000B8AA8 /* Vet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB63841DC12DC8000B8AA8 /* Vet.swift */; };
+		1BEB638B1DC12DC8000B8AA8 /* Hospital+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB63851DC12DC8000B8AA8 /* Hospital+CoreDataProperties.swift */; };
+		1BEB638C1DC12DC8000B8AA8 /* Hospital.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEB63861DC12DC8000B8AA8 /* Hospital.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,17 +60,17 @@
 		1BEB25B81DBEEC8E00064941 /* CoreDataAssessmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataAssessmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEB25BC1DBEEC8E00064941 /* CoreDataAssessmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataAssessmentUITests.swift; sourceTree = "<group>"; };
 		1BEB25BE1DBEEC8E00064941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1BEB25CA1DBF6E6B00064941 /* Pet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Pet+CoreDataProperties.swift"; path = "../Pet+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1BEB25CB1DBF6E6B00064941 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pet.swift; path = ../Pet.swift; sourceTree = "<group>"; };
-		1BEB25CC1DBF6E6B00064941 /* Hospital+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Hospital+CoreDataProperties.swift"; path = "../Hospital+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1BEB25CD1DBF6E6B00064941 /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hospital.swift; path = ../Hospital.swift; sourceTree = "<group>"; };
-		1BEB25CE1DBF6E6B00064941 /* Vet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Vet+CoreDataProperties.swift"; path = "../Vet+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1BEB25CF1DBF6E6B00064941 /* Vet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vet.swift; path = ../Vet.swift; sourceTree = "<group>"; };
 		1BEB25D61DBF741300064941 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		1BEB25DA1DBFF6FE00064941 /* HospitalTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HospitalTableViewController.swift; path = ../HospitalTableViewController.swift; sourceTree = "<group>"; };
 		1BEB25DC1DC0288F00064941 /* VetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VetTableViewController.swift; sourceTree = "<group>"; };
 		1BEB25DE1DC02AB100064941 /* PetTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetTableViewController.swift; sourceTree = "<group>"; };
 		1BEB25E01DC0316F00064941 /* PetDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PetDetailViewController.swift; sourceTree = "<group>"; };
+		1BEB63811DC12DC8000B8AA8 /* Pet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Pet+CoreDataProperties.swift"; path = "../Pet+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1BEB63821DC12DC8000B8AA8 /* Pet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Pet.swift; path = ../Pet.swift; sourceTree = "<group>"; };
+		1BEB63831DC12DC8000B8AA8 /* Vet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Vet+CoreDataProperties.swift"; path = "../Vet+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1BEB63841DC12DC8000B8AA8 /* Vet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vet.swift; path = ../Vet.swift; sourceTree = "<group>"; };
+		1BEB63851DC12DC8000B8AA8 /* Hospital+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Hospital+CoreDataProperties.swift"; path = "../Hospital+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1BEB63861DC12DC8000B8AA8 /* Hospital.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Hospital.swift; path = ../Hospital.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +133,12 @@
 				1BEB25A51DBEEC8E00064941 /* LaunchScreen.storyboard */,
 				1BEB25A81DBEEC8E00064941 /* Info.plist */,
 				1BEB25A01DBEEC8E00064941 /* CoreDataAssessment.xcdatamodeld */,
-				1BEB25CA1DBF6E6B00064941 /* Pet+CoreDataProperties.swift */,
-				1BEB25CB1DBF6E6B00064941 /* Pet.swift */,
-				1BEB25CC1DBF6E6B00064941 /* Hospital+CoreDataProperties.swift */,
-				1BEB25CD1DBF6E6B00064941 /* Hospital.swift */,
-				1BEB25CE1DBF6E6B00064941 /* Vet+CoreDataProperties.swift */,
-				1BEB25CF1DBF6E6B00064941 /* Vet.swift */,
+				1BEB63811DC12DC8000B8AA8 /* Pet+CoreDataProperties.swift */,
+				1BEB63821DC12DC8000B8AA8 /* Pet.swift */,
+				1BEB63831DC12DC8000B8AA8 /* Vet+CoreDataProperties.swift */,
+				1BEB63841DC12DC8000B8AA8 /* Vet.swift */,
+				1BEB63851DC12DC8000B8AA8 /* Hospital+CoreDataProperties.swift */,
+				1BEB63861DC12DC8000B8AA8 /* Hospital.swift */,
 			);
 			path = CoreDataAssessment;
 			sourceTree = "<group>";
@@ -292,20 +292,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEB25D31DBF6E6B00064941 /* Hospital.swift in Sources */,
-				1BEB25D41DBF6E6B00064941 /* Vet+CoreDataProperties.swift in Sources */,
-				1BEB25D51DBF6E6B00064941 /* Vet.swift in Sources */,
 				1BEB25D71DBF741300064941 /* DataStore.swift in Sources */,
-				1BEB25D11DBF6E6B00064941 /* Pet.swift in Sources */,
 				1BEB25DD1DC0288F00064941 /* VetTableViewController.swift in Sources */,
 				1BEB25A21DBEEC8E00064941 /* CoreDataAssessment.xcdatamodeld in Sources */,
 				1BEB259C1DBEEC8E00064941 /* ViewController.swift in Sources */,
 				1BEB25DB1DBFF6FE00064941 /* HospitalTableViewController.swift in Sources */,
+				1BEB63881DC12DC8000B8AA8 /* Pet.swift in Sources */,
 				1BEB25DF1DC02AB100064941 /* PetTableViewController.swift in Sources */,
+				1BEB638C1DC12DC8000B8AA8 /* Hospital.swift in Sources */,
 				1BEB259A1DBEEC8E00064941 /* AppDelegate.swift in Sources */,
+				1BEB638B1DC12DC8000B8AA8 /* Hospital+CoreDataProperties.swift in Sources */,
 				1BEB25E11DC0316F00064941 /* PetDetailViewController.swift in Sources */,
-				1BEB25D01DBF6E6B00064941 /* Pet+CoreDataProperties.swift in Sources */,
-				1BEB25D21DBF6E6B00064941 /* Hospital+CoreDataProperties.swift in Sources */,
+				1BEB63871DC12DC8000B8AA8 /* Pet+CoreDataProperties.swift in Sources */,
+				1BEB63891DC12DC8000B8AA8 /* Vet+CoreDataProperties.swift in Sources */,
+				1BEB638A1DC12DC8000B8AA8 /* Vet.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
